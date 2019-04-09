@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FBC19850225C827700C57349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1984F225C827700C57349 /* AppDelegate.swift */; };
-		FBC19852225C827700C57349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19851225C827700C57349 /* ViewController.swift */; };
 		FBC19855225C827700C57349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC19853225C827700C57349 /* Main.storyboard */; };
 		FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */; };
 		FBC1985A225C827B00C57349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC19859225C827B00C57349 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FBC1984C225C827700C57349 /* ZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC1984F225C827700C57349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBC19851225C827700C57349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBC19854225C827700C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhiBo.xcdatamodel; sourceTree = "<group>"; };
 		FBC19859225C827B00C57349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +97,8 @@
 		FBC1984E225C827700C57349 /* ZhiBo */ = {
 			isa = PBXGroup;
 			children = (
+				FBC19880225C8ABA00C57349 /* Classes */,
 				FBC1984F225C827700C57349 /* AppDelegate.swift */,
-				FBC19851225C827700C57349 /* ViewController.swift */,
 				FBC19853225C827700C57349 /* Main.storyboard */,
 				FBC19859225C827B00C57349 /* Assets.xcassets */,
 				FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */,
@@ -126,6 +124,61 @@
 				FBC19874225C827B00C57349 /* Info.plist */,
 			);
 			path = ZhiBoUITests;
+			sourceTree = "<group>";
+		};
+		FBC19880225C8ABA00C57349 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBC19881225C8ABA00C57349 /* Home */,
+				FBC19882225C8ABA00C57349 /* Tools */,
+				FBC19883225C8ABA00C57349 /* Follow */,
+				FBC19884225C8ABA00C57349 /* Profile */,
+				FBC19885225C8ABA00C57349 /* Live */,
+				FBC19886225C8ABA00C57349 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FBC19881225C8ABA00C57349 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FBC19882225C8ABA00C57349 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FBC19883225C8ABA00C57349 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		FBC19884225C8ABA00C57349 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FBC19885225C8ABA00C57349 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FBC19886225C8ABA00C57349 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */,
-				FBC19852225C827700C57349 /* ViewController.swift in Sources */,
 				FBC19850225C827700C57349 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T346DVJJZ;
 				INFOPLIST_FILE = ZhiBo/Info.plist;
@@ -454,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T346DVJJZ;
 				INFOPLIST_FILE = ZhiBo/Info.plist;
