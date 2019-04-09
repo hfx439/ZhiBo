@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC19850225C827700C57349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1984F225C827700C57349 /* AppDelegate.swift */; };
+		FBC19852225C827700C57349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19851225C827700C57349 /* ViewController.swift */; };
+		FBC19855225C827700C57349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC19853225C827700C57349 /* Main.storyboard */; };
+		FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */; };
+		FBC1985A225C827B00C57349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC19859225C827B00C57349 /* Assets.xcassets */; };
+		FBC1985D225C827B00C57349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */; };
+		FBC19868225C827B00C57349 /* ZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19867225C827B00C57349 /* ZhiBoTests.swift */; };
+		FBC19873225C827B00C57349 /* ZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19872225C827B00C57349 /* ZhiBoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC19864225C827B00C57349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC19844225C827700C57349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC1984B225C827700C57349;
+			remoteInfo = ZhiBo;
+		};
+		FBC1986F225C827B00C57349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC19844225C827700C57349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC1984B225C827700C57349;
+			remoteInfo = ZhiBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC1984C225C827700C57349 /* ZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC1984F225C827700C57349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC19851225C827700C57349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC19854225C827700C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhiBo.xcdatamodel; sourceTree = "<group>"; };
+		FBC19859225C827B00C57349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC1985C225C827B00C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC1985E225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC19863225C827B00C57349 /* ZhiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC19867225C827B00C57349 /* ZhiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoTests.swift; sourceTree = "<group>"; };
+		FBC19869225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC19872225C827B00C57349 /* ZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoUITests.swift; sourceTree = "<group>"; };
+		FBC19874225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC19849225C827700C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC19860225C827B00C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC1986B225C827B00C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC19843225C827700C57349 = {
+			isa = PBXGroup;
+			children = (
+				FBC1984E225C827700C57349 /* ZhiBo */,
+				FBC19866225C827B00C57349 /* ZhiBoTests */,
+				FBC19871225C827B00C57349 /* ZhiBoUITests */,
+				FBC1984D225C827700C57349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC1984D225C827700C57349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC1984C225C827700C57349 /* ZhiBo.app */,
+				FBC19863225C827B00C57349 /* ZhiBoTests.xctest */,
+				FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC1984E225C827700C57349 /* ZhiBo */ = {
+			isa = PBXGroup;
+			children = (
+				FBC1984F225C827700C57349 /* AppDelegate.swift */,
+				FBC19851225C827700C57349 /* ViewController.swift */,
+				FBC19853225C827700C57349 /* Main.storyboard */,
+				FBC19859225C827B00C57349 /* Assets.xcassets */,
+				FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */,
+				FBC1985E225C827B00C57349 /* Info.plist */,
+				FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */,
+			);
+			path = ZhiBo;
+			sourceTree = "<group>";
+		};
+		FBC19866225C827B00C57349 /* ZhiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC19867225C827B00C57349 /* ZhiBoTests.swift */,
+				FBC19869225C827B00C57349 /* Info.plist */,
+			);
+			path = ZhiBoTests;
+			sourceTree = "<group>";
+		};
+		FBC19871225C827B00C57349 /* ZhiBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC19872225C827B00C57349 /* ZhiBoUITests.swift */,
+				FBC19874225C827B00C57349 /* Info.plist */,
+			);
+			path = ZhiBoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC1984B225C827700C57349 /* ZhiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC19877225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */;
+			buildPhases = (
+				FBC19848225C827700C57349 /* Sources */,
+				FBC19849225C827700C57349 /* Frameworks */,
+				FBC1984A225C827700C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiBo;
+			productName = ZhiBo;
+			productReference = FBC1984C225C827700C57349 /* ZhiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC19862225C827B00C57349 /* ZhiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC1987A225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */;
+			buildPhases = (
+				FBC1985F225C827B00C57349 /* Sources */,
+				FBC19860225C827B00C57349 /* Frameworks */,
+				FBC19861225C827B00C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC19865225C827B00C57349 /* PBXTargetDependency */,
+			);
+			name = ZhiBoTests;
+			productName = ZhiBoTests;
+			productReference = FBC19863225C827B00C57349 /* ZhiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC1986D225C827B00C57349 /* ZhiBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC1987D225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */;
+			buildPhases = (
+				FBC1986A225C827B00C57349 /* Sources */,
+				FBC1986B225C827B00C57349 /* Frameworks */,
+				FBC1986C225C827B00C57349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC19870225C827B00C57349 /* PBXTargetDependency */,
+			);
+			name = ZhiBoUITests;
+			productName = ZhiBoUITests;
+			productReference = FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC19844225C827700C57349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HFX;
+				TargetAttributes = {
+					FBC1984B225C827700C57349 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					FBC19862225C827B00C57349 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = FBC1984B225C827700C57349;
+					};
+					FBC1986D225C827B00C57349 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = FBC1984B225C827700C57349;
+					};
+				};
+			};
+			buildConfigurationList = FBC19847225C827700C57349 /* Build configuration list for PBXProject "ZhiBo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC19843225C827700C57349;
+			productRefGroup = FBC1984D225C827700C57349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC1984B225C827700C57349 /* ZhiBo */,
+				FBC19862225C827B00C57349 /* ZhiBoTests */,
+				FBC1986D225C827B00C57349 /* ZhiBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC1984A225C827700C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC1985D225C827B00C57349 /* LaunchScreen.storyboard in Resources */,
+				FBC1985A225C827B00C57349 /* Assets.xcassets in Resources */,
+				FBC19855225C827700C57349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC19861225C827B00C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC1986C225C827B00C57349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC19848225C827700C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */,
+				FBC19852225C827700C57349 /* ViewController.swift in Sources */,
+				FBC19850225C827700C57349 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC1985F225C827B00C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC19868225C827B00C57349 /* ZhiBoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC1986A225C827B00C57349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC19873225C827B00C57349 /* ZhiBoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC19865225C827B00C57349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC1984B225C827700C57349 /* ZhiBo */;
+			targetProxy = FBC19864225C827B00C57349 /* PBXContainerItemProxy */;
+		};
+		FBC19870225C827B00C57349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC1984B225C827700C57349 /* ZhiBo */;
+			targetProxy = FBC1986F225C827B00C57349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC19853225C827700C57349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC19854225C827700C57349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC1985C225C827B00C57349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC19875225C827B00C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC19876225C827B00C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC19878225C827B00C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC19879225C827B00C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBC1987B225C827B00C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiBo.app/ZhiBo";
+			};
+			name = Debug;
+		};
+		FBC1987C225C827B00C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiBo.app/ZhiBo";
+			};
+			name = Release;
+		};
+		FBC1987E225C827B00C57349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhiBo;
+			};
+			name = Debug;
+		};
+		FBC1987F225C827B00C57349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T346DVJJZ;
+				INFOPLIST_FILE = ZhiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IFLYTEK.ZhiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhiBo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC19847225C827700C57349 /* Build configuration list for PBXProject "ZhiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC19875225C827B00C57349 /* Debug */,
+				FBC19876225C827B00C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC19877225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC19878225C827B00C57349 /* Debug */,
+				FBC19879225C827B00C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC1987A225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC1987B225C827B00C57349 /* Debug */,
+				FBC1987C225C827B00C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC1987D225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC1987E225C827B00C57349 /* Debug */,
+				FBC1987F225C827B00C57349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */,
+			);
+			currentVersion = FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */;
+			path = ZhiBo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBC19844225C827700C57349 /* Project object */;
+}
