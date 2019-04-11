@@ -7,64 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBC19850225C827700C57349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1984F225C827700C57349 /* AppDelegate.swift */; };
-		FBC19855225C827700C57349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC19853225C827700C57349 /* Main.storyboard */; };
-		FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */; };
-		FBC1985A225C827B00C57349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC19859225C827B00C57349 /* Assets.xcassets */; };
-		FBC1985D225C827B00C57349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */; };
-		FBC19868225C827B00C57349 /* ZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19867225C827B00C57349 /* ZhiBoTests.swift */; };
-		FBC19873225C827B00C57349 /* ZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19872225C827B00C57349 /* ZhiBoUITests.swift */; };
+		35390AA2C4E2ED2758FA3B2A /* Pods_ZhiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0472D113431E235CE513494 /* Pods_ZhiBo.framework */; };
+		FBC19930225F431000C57349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1992F225F431000C57349 /* AppDelegate.swift */; };
+		FBC19932225F431000C57349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19931225F431000C57349 /* ViewController.swift */; };
+		FBC19935225F431000C57349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC19933225F431000C57349 /* Main.storyboard */; };
+		FBC19938225F431000C57349 /* ZhiBo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC19936225F431000C57349 /* ZhiBo.xcdatamodeld */; };
+		FBC1993A225F431000C57349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC19939225F431000C57349 /* Assets.xcassets */; };
+		FBC1993D225F431000C57349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC1993B225F431000C57349 /* LaunchScreen.storyboard */; };
+		FBC19948225F431100C57349 /* ZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19947225F431100C57349 /* ZhiBoTests.swift */; };
+		FBC19953225F431100C57349 /* ZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19952225F431100C57349 /* ZhiBoUITests.swift */; };
+		FBC19970225F439000C57349 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19962225F438F00C57349 /* HomeController.swift */; };
+		FBC19971225F439000C57349 /* LrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19965225F438F00C57349 /* LrregularityBasicContentView.swift */; };
+		FBC19972225F439000C57349 /* BouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19966225F438F00C57349 /* BouncesContentView.swift */; };
+		FBC19973225F439000C57349 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19967225F438F00C57349 /* BasicContentView.swift */; };
+		FBC19974225F439000C57349 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC19968225F438F00C57349 /* NavigationController.swift */; };
+		FBC19975225F439000C57349 /* FollowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1996A225F438F00C57349 /* FollowController.swift */; };
+		FBC19976225F439000C57349 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1996C225F438F00C57349 /* ProfileController.swift */; };
+		FBC19977225F439000C57349 /* LiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1996E225F438F00C57349 /* LiveController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FBC19864225C827B00C57349 /* PBXContainerItemProxy */ = {
+		FBC19944225F431100C57349 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FBC19844225C827700C57349 /* Project object */;
+			containerPortal = FBC19924225F431000C57349 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBC1984B225C827700C57349;
+			remoteGlobalIDString = FBC1992B225F431000C57349;
 			remoteInfo = ZhiBo;
 		};
-		FBC1986F225C827B00C57349 /* PBXContainerItemProxy */ = {
+		FBC1994F225F431100C57349 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FBC19844225C827700C57349 /* Project object */;
+			containerPortal = FBC19924225F431000C57349 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBC1984B225C827700C57349;
+			remoteGlobalIDString = FBC1992B225F431000C57349;
 			remoteInfo = ZhiBo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBC1984C225C827700C57349 /* ZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC1984F225C827700C57349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBC19854225C827700C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhiBo.xcdatamodel; sourceTree = "<group>"; };
-		FBC19859225C827B00C57349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBC1985C225C827B00C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FBC1985E225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBC19863225C827B00C57349 /* ZhiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC19867225C827B00C57349 /* ZhiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoTests.swift; sourceTree = "<group>"; };
-		FBC19869225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC19872225C827B00C57349 /* ZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoUITests.swift; sourceTree = "<group>"; };
-		FBC19874225C827B00C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4E7CCBD58AE4040A70A40F /* Pods-ZhiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBo/Pods-ZhiBo.release.xcconfig"; sourceTree = "<group>"; };
+		D0472D113431E235CE513494 /* Pods_ZhiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3155F8A1799BC653F20FC28 /* Pods-ZhiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBo/Pods-ZhiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		FBC1992C225F431000C57349 /* ZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC1992F225F431000C57349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC19931225F431000C57349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC19934225F431000C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC19937225F431000C57349 /* ZhiBo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhiBo.xcdatamodel; sourceTree = "<group>"; };
+		FBC19939225F431000C57349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC1993C225F431000C57349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC1993E225F431000C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC19943225F431100C57349 /* ZhiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC19947225F431100C57349 /* ZhiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoTests.swift; sourceTree = "<group>"; };
+		FBC19949225F431100C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC1994E225F431100C57349 /* ZhiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC19952225F431100C57349 /* ZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoUITests.swift; sourceTree = "<group>"; };
+		FBC19954225F431100C57349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC19962225F438F00C57349 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FBC19965225F438F00C57349 /* LrregularityBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		FBC19966225F438F00C57349 /* BouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncesContentView.swift; sourceTree = "<group>"; };
+		FBC19967225F438F00C57349 /* BasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
+		FBC19968225F438F00C57349 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FBC1996A225F438F00C57349 /* FollowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowController.swift; sourceTree = "<group>"; };
+		FBC1996C225F438F00C57349 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		FBC1996E225F438F00C57349 /* LiveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBC19849225C827700C57349 /* Frameworks */ = {
+		FBC19929225F431000C57349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35390AA2C4E2ED2758FA3B2A /* Pods_ZhiBo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC19940225F431100C57349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC19860225C827B00C57349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBC1986B225C827B00C57349 /* Frameworks */ = {
+		FBC1994B225F431100C57349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,107 +97,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBC19843225C827700C57349 = {
+		7734090AD1DEACF40D7D5790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FBC1984E225C827700C57349 /* ZhiBo */,
-				FBC19866225C827B00C57349 /* ZhiBoTests */,
-				FBC19871225C827B00C57349 /* ZhiBoUITests */,
-				FBC1984D225C827700C57349 /* Products */,
+				D0472D113431E235CE513494 /* Pods_ZhiBo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9862BE7DA713E68CD81E05E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3155F8A1799BC653F20FC28 /* Pods-ZhiBo.debug.xcconfig */,
+				6A4E7CCBD58AE4040A70A40F /* Pods-ZhiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBC19923225F431000C57349 = {
+			isa = PBXGroup;
+			children = (
+				FBC1992E225F431000C57349 /* ZhiBo */,
+				FBC19946225F431100C57349 /* ZhiBoTests */,
+				FBC19951225F431100C57349 /* ZhiBoUITests */,
+				FBC1992D225F431000C57349 /* Products */,
+				9862BE7DA713E68CD81E05E8 /* Pods */,
+				7734090AD1DEACF40D7D5790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FBC1984D225C827700C57349 /* Products */ = {
+		FBC1992D225F431000C57349 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBC1984C225C827700C57349 /* ZhiBo.app */,
-				FBC19863225C827B00C57349 /* ZhiBoTests.xctest */,
-				FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */,
+				FBC1992C225F431000C57349 /* ZhiBo.app */,
+				FBC19943225F431100C57349 /* ZhiBoTests.xctest */,
+				FBC1994E225F431100C57349 /* ZhiBoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBC1984E225C827700C57349 /* ZhiBo */ = {
+		FBC1992E225F431000C57349 /* ZhiBo */ = {
 			isa = PBXGroup;
 			children = (
-				FBC19880225C8ABA00C57349 /* Classes */,
-				FBC1984F225C827700C57349 /* AppDelegate.swift */,
-				FBC19853225C827700C57349 /* Main.storyboard */,
-				FBC19859225C827B00C57349 /* Assets.xcassets */,
-				FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */,
-				FBC1985E225C827B00C57349 /* Info.plist */,
-				FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */,
+				FBC19960225F438F00C57349 /* Classes */,
+				FBC1992F225F431000C57349 /* AppDelegate.swift */,
+				FBC19931225F431000C57349 /* ViewController.swift */,
+				FBC19933225F431000C57349 /* Main.storyboard */,
+				FBC19939225F431000C57349 /* Assets.xcassets */,
+				FBC1993B225F431000C57349 /* LaunchScreen.storyboard */,
+				FBC1993E225F431000C57349 /* Info.plist */,
+				FBC19936225F431000C57349 /* ZhiBo.xcdatamodeld */,
 			);
 			path = ZhiBo;
 			sourceTree = "<group>";
 		};
-		FBC19866225C827B00C57349 /* ZhiBoTests */ = {
+		FBC19946225F431100C57349 /* ZhiBoTests */ = {
 			isa = PBXGroup;
 			children = (
-				FBC19867225C827B00C57349 /* ZhiBoTests.swift */,
-				FBC19869225C827B00C57349 /* Info.plist */,
+				FBC19947225F431100C57349 /* ZhiBoTests.swift */,
+				FBC19949225F431100C57349 /* Info.plist */,
 			);
 			path = ZhiBoTests;
 			sourceTree = "<group>";
 		};
-		FBC19871225C827B00C57349 /* ZhiBoUITests */ = {
+		FBC19951225F431100C57349 /* ZhiBoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FBC19872225C827B00C57349 /* ZhiBoUITests.swift */,
-				FBC19874225C827B00C57349 /* Info.plist */,
+				FBC19952225F431100C57349 /* ZhiBoUITests.swift */,
+				FBC19954225F431100C57349 /* Info.plist */,
 			);
 			path = ZhiBoUITests;
 			sourceTree = "<group>";
 		};
-		FBC19880225C8ABA00C57349 /* Classes */ = {
+		FBC19960225F438F00C57349 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FBC19881225C8ABA00C57349 /* Home */,
-				FBC19882225C8ABA00C57349 /* Tools */,
-				FBC19883225C8ABA00C57349 /* Follow */,
-				FBC19884225C8ABA00C57349 /* Profile */,
-				FBC19885225C8ABA00C57349 /* Live */,
-				FBC19886225C8ABA00C57349 /* Main */,
+				FBC1996F225F438F00C57349 /* Main */,
+				FBC19961225F438F00C57349 /* Home */,
+				FBC1996D225F438F00C57349 /* Live */,
+				FBC19969225F438F00C57349 /* Follow */,
+				FBC1996B225F438F00C57349 /* Profile */,
+				FBC19963225F438F00C57349 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		FBC19881225C8ABA00C57349 /* Home */ = {
+		FBC19961225F438F00C57349 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FBC19962225F438F00C57349 /* HomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		FBC19882225C8ABA00C57349 /* Tools */ = {
+		FBC19963225F438F00C57349 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				FBC19964225F438F00C57349 /* TabBarView */,
+				FBC19968225F438F00C57349 /* NavigationController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		FBC19883225C8ABA00C57349 /* Follow */ = {
+		FBC19964225F438F00C57349 /* TabBarView */ = {
 			isa = PBXGroup;
 			children = (
+				FBC19965225F438F00C57349 /* LrregularityBasicContentView.swift */,
+				FBC19966225F438F00C57349 /* BouncesContentView.swift */,
+				FBC19967225F438F00C57349 /* BasicContentView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		FBC19969225F438F00C57349 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				FBC1996A225F438F00C57349 /* FollowController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		FBC19884225C8ABA00C57349 /* Profile */ = {
+		FBC1996B225F438F00C57349 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FBC1996C225F438F00C57349 /* ProfileController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		FBC19885225C8ABA00C57349 /* Live */ = {
+		FBC1996D225F438F00C57349 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				FBC1996E225F438F00C57349 /* LiveController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		FBC19886225C8ABA00C57349 /* Main */ = {
+		FBC1996F225F438F00C57349 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -184,13 +243,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBC1984B225C827700C57349 /* ZhiBo */ = {
+		FBC1992B225F431000C57349 /* ZhiBo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC19877225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */;
+			buildConfigurationList = FBC19957225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */;
 			buildPhases = (
-				FBC19848225C827700C57349 /* Sources */,
-				FBC19849225C827700C57349 /* Frameworks */,
-				FBC1984A225C827700C57349 /* Resources */,
+				6EAD7199973A466191E6E8C6 /* [CP] Check Pods Manifest.lock */,
+				FBC19928225F431000C57349 /* Sources */,
+				FBC19929225F431000C57349 /* Frameworks */,
+				FBC1992A225F431000C57349 /* Resources */,
+				A2E50D72ED558DA6CD34FBA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,69 +259,69 @@
 			);
 			name = ZhiBo;
 			productName = ZhiBo;
-			productReference = FBC1984C225C827700C57349 /* ZhiBo.app */;
+			productReference = FBC1992C225F431000C57349 /* ZhiBo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBC19862225C827B00C57349 /* ZhiBoTests */ = {
+		FBC19942225F431100C57349 /* ZhiBoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC1987A225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */;
+			buildConfigurationList = FBC1995A225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */;
 			buildPhases = (
-				FBC1985F225C827B00C57349 /* Sources */,
-				FBC19860225C827B00C57349 /* Frameworks */,
-				FBC19861225C827B00C57349 /* Resources */,
+				FBC1993F225F431100C57349 /* Sources */,
+				FBC19940225F431100C57349 /* Frameworks */,
+				FBC19941225F431100C57349 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FBC19865225C827B00C57349 /* PBXTargetDependency */,
+				FBC19945225F431100C57349 /* PBXTargetDependency */,
 			);
 			name = ZhiBoTests;
 			productName = ZhiBoTests;
-			productReference = FBC19863225C827B00C57349 /* ZhiBoTests.xctest */;
+			productReference = FBC19943225F431100C57349 /* ZhiBoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FBC1986D225C827B00C57349 /* ZhiBoUITests */ = {
+		FBC1994D225F431100C57349 /* ZhiBoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC1987D225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */;
+			buildConfigurationList = FBC1995D225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */;
 			buildPhases = (
-				FBC1986A225C827B00C57349 /* Sources */,
-				FBC1986B225C827B00C57349 /* Frameworks */,
-				FBC1986C225C827B00C57349 /* Resources */,
+				FBC1994A225F431100C57349 /* Sources */,
+				FBC1994B225F431100C57349 /* Frameworks */,
+				FBC1994C225F431100C57349 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FBC19870225C827B00C57349 /* PBXTargetDependency */,
+				FBC19950225F431100C57349 /* PBXTargetDependency */,
 			);
 			name = ZhiBoUITests;
 			productName = ZhiBoUITests;
-			productReference = FBC1986E225C827B00C57349 /* ZhiBoUITests.xctest */;
+			productReference = FBC1994E225F431100C57349 /* ZhiBoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FBC19844225C827700C57349 /* Project object */ = {
+		FBC19924225F431000C57349 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = HFX;
 				TargetAttributes = {
-					FBC1984B225C827700C57349 = {
+					FBC1992B225F431000C57349 = {
 						CreatedOnToolsVersion = 10.2;
 					};
-					FBC19862225C827B00C57349 = {
+					FBC19942225F431100C57349 = {
 						CreatedOnToolsVersion = 10.2;
-						TestTargetID = FBC1984B225C827700C57349;
+						TestTargetID = FBC1992B225F431000C57349;
 					};
-					FBC1986D225C827B00C57349 = {
+					FBC1994D225F431100C57349 = {
 						CreatedOnToolsVersion = 10.2;
-						TestTargetID = FBC1984B225C827700C57349;
+						TestTargetID = FBC1992B225F431000C57349;
 					};
 				};
 			};
-			buildConfigurationList = FBC19847225C827700C57349 /* Build configuration list for PBXProject "ZhiBo" */;
+			buildConfigurationList = FBC19927225F431000C57349 /* Build configuration list for PBXProject "ZhiBo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -268,37 +329,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FBC19843225C827700C57349;
-			productRefGroup = FBC1984D225C827700C57349 /* Products */;
+			mainGroup = FBC19923225F431000C57349;
+			productRefGroup = FBC1992D225F431000C57349 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBC1984B225C827700C57349 /* ZhiBo */,
-				FBC19862225C827B00C57349 /* ZhiBoTests */,
-				FBC1986D225C827B00C57349 /* ZhiBoUITests */,
+				FBC1992B225F431000C57349 /* ZhiBo */,
+				FBC19942225F431100C57349 /* ZhiBoTests */,
+				FBC1994D225F431100C57349 /* ZhiBoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FBC1984A225C827700C57349 /* Resources */ = {
+		FBC1992A225F431000C57349 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC1985D225C827B00C57349 /* LaunchScreen.storyboard in Resources */,
-				FBC1985A225C827B00C57349 /* Assets.xcassets in Resources */,
-				FBC19855225C827700C57349 /* Main.storyboard in Resources */,
+				FBC1993D225F431000C57349 /* LaunchScreen.storyboard in Resources */,
+				FBC1993A225F431000C57349 /* Assets.xcassets in Resources */,
+				FBC19935225F431000C57349 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC19861225C827B00C57349 /* Resources */ = {
+		FBC19941225F431100C57349 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC1986C225C827B00C57349 /* Resources */ = {
+		FBC1994C225F431100C57349 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,60 +368,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EAD7199973A466191E6E8C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhiBo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E50D72ED558DA6CD34FBA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBo/Pods-ZhiBo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBo/Pods-ZhiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		FBC19848225C827700C57349 /* Sources */ = {
+		FBC19928225F431000C57349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC19858225C827700C57349 /* ZhiBo.xcdatamodeld in Sources */,
-				FBC19850225C827700C57349 /* AppDelegate.swift in Sources */,
+				FBC19973225F439000C57349 /* BasicContentView.swift in Sources */,
+				FBC19974225F439000C57349 /* NavigationController.swift in Sources */,
+				FBC19977225F439000C57349 /* LiveController.swift in Sources */,
+				FBC19971225F439000C57349 /* LrregularityBasicContentView.swift in Sources */,
+				FBC19970225F439000C57349 /* HomeController.swift in Sources */,
+				FBC19975225F439000C57349 /* FollowController.swift in Sources */,
+				FBC19976225F439000C57349 /* ProfileController.swift in Sources */,
+				FBC19972225F439000C57349 /* BouncesContentView.swift in Sources */,
+				FBC19938225F431000C57349 /* ZhiBo.xcdatamodeld in Sources */,
+				FBC19932225F431000C57349 /* ViewController.swift in Sources */,
+				FBC19930225F431000C57349 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC1985F225C827B00C57349 /* Sources */ = {
+		FBC1993F225F431100C57349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC19868225C827B00C57349 /* ZhiBoTests.swift in Sources */,
+				FBC19948225F431100C57349 /* ZhiBoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC1986A225C827B00C57349 /* Sources */ = {
+		FBC1994A225F431100C57349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC19873225C827B00C57349 /* ZhiBoUITests.swift in Sources */,
+				FBC19953225F431100C57349 /* ZhiBoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FBC19865225C827B00C57349 /* PBXTargetDependency */ = {
+		FBC19945225F431100C57349 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBC1984B225C827700C57349 /* ZhiBo */;
-			targetProxy = FBC19864225C827B00C57349 /* PBXContainerItemProxy */;
+			target = FBC1992B225F431000C57349 /* ZhiBo */;
+			targetProxy = FBC19944225F431100C57349 /* PBXContainerItemProxy */;
 		};
-		FBC19870225C827B00C57349 /* PBXTargetDependency */ = {
+		FBC19950225F431100C57349 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBC1984B225C827700C57349 /* ZhiBo */;
-			targetProxy = FBC1986F225C827B00C57349 /* PBXContainerItemProxy */;
+			target = FBC1992B225F431000C57349 /* ZhiBo */;
+			targetProxy = FBC1994F225F431100C57349 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FBC19853225C827700C57349 /* Main.storyboard */ = {
+		FBC19933225F431000C57349 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FBC19854225C827700C57349 /* Base */,
+				FBC19934225F431000C57349 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FBC1985B225C827B00C57349 /* LaunchScreen.storyboard */ = {
+		FBC1993B225F431000C57349 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FBC1985C225C827B00C57349 /* Base */,
+				FBC1993C225F431000C57349 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -368,7 +485,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FBC19875225C827B00C57349 /* Debug */ = {
+		FBC19955225F431100C57349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		FBC19876225C827B00C57349 /* Release */ = {
+		FBC19956225F431100C57349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,11 +601,11 @@
 			};
 			name = Release;
 		};
-		FBC19878225C827B00C57349 /* Debug */ = {
+		FBC19958225F431100C57349 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3155F8A1799BC653F20FC28 /* Pods-ZhiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T346DVJJZ;
 				INFOPLIST_FILE = ZhiBo/Info.plist;
@@ -503,11 +620,11 @@
 			};
 			name = Debug;
 		};
-		FBC19879225C827B00C57349 /* Release */ = {
+		FBC19959225F431100C57349 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4E7CCBD58AE4040A70A40F /* Pods-ZhiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T346DVJJZ;
 				INFOPLIST_FILE = ZhiBo/Info.plist;
@@ -522,7 +639,7 @@
 			};
 			name = Release;
 		};
-		FBC1987B225C827B00C57349 /* Debug */ = {
+		FBC1995B225F431100C57349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,7 +660,7 @@
 			};
 			name = Debug;
 		};
-		FBC1987C225C827B00C57349 /* Release */ = {
+		FBC1995C225F431100C57349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,7 +681,7 @@
 			};
 			name = Release;
 		};
-		FBC1987E225C827B00C57349 /* Debug */ = {
+		FBC1995E225F431100C57349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -584,7 +701,7 @@
 			};
 			name = Debug;
 		};
-		FBC1987F225C827B00C57349 /* Release */ = {
+		FBC1995F225F431100C57349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -607,38 +724,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBC19847225C827700C57349 /* Build configuration list for PBXProject "ZhiBo" */ = {
+		FBC19927225F431000C57349 /* Build configuration list for PBXProject "ZhiBo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC19875225C827B00C57349 /* Debug */,
-				FBC19876225C827B00C57349 /* Release */,
+				FBC19955225F431100C57349 /* Debug */,
+				FBC19956225F431100C57349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC19877225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */ = {
+		FBC19957225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC19878225C827B00C57349 /* Debug */,
-				FBC19879225C827B00C57349 /* Release */,
+				FBC19958225F431100C57349 /* Debug */,
+				FBC19959225F431100C57349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC1987A225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */ = {
+		FBC1995A225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC1987B225C827B00C57349 /* Debug */,
-				FBC1987C225C827B00C57349 /* Release */,
+				FBC1995B225F431100C57349 /* Debug */,
+				FBC1995C225F431100C57349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC1987D225C827B00C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */ = {
+		FBC1995D225F431100C57349 /* Build configuration list for PBXNativeTarget "ZhiBoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBC1987E225C827B00C57349 /* Debug */,
-				FBC1987F225C827B00C57349 /* Release */,
+				FBC1995E225F431100C57349 /* Debug */,
+				FBC1995F225F431100C57349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -646,17 +763,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FBC19856225C827700C57349 /* ZhiBo.xcdatamodeld */ = {
+		FBC19936225F431000C57349 /* ZhiBo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */,
+				FBC19937225F431000C57349 /* ZhiBo.xcdatamodel */,
 			);
-			currentVersion = FBC19857225C827700C57349 /* ZhiBo.xcdatamodel */;
+			currentVersion = FBC19937225F431000C57349 /* ZhiBo.xcdatamodel */;
 			path = ZhiBo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = FBC19844225C827700C57349 /* Project object */;
+	rootObject = FBC19924225F431000C57349 /* Project object */;
 }

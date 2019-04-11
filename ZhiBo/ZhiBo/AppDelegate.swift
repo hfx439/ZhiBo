@@ -2,22 +2,54 @@
 //  AppDelegate.swift
 //  ZhiBo
 //
-//  Created by HFX on 2019/4/9.
+//  Created by HFX on 2019/4/11.
 //  Copyright © 2019 HFX. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import ESTabBarController_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var tabBarController = ESTabBarController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        tabBarController = self.customIrregularityStyle(delegate: self as? UITabBarControllerDelegate)
+        self.window?.rootViewController = tabBarController
+        self.window?.makeKeyAndVisible()
         return true
+    }
+    
+    func customIrregularityStyle(delegate: UITabBarControllerDelegate?) -> ESTabBarController {
+        
+        
+        let v1 = HomeController()
+        let v2 = LiveController()
+        let v3 = FollowController()
+        let v4 = ProfileController()
+        
+        v1.tabBarItem = ESTabBarItem.init(LrregularityBasicContentView(), title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "Hhome"))
+        v2.tabBarItem = ESTabBarItem.init(LrregularityBasicContentView(), title: "直播", image: UIImage(named: "video"), selectedImage: UIImage(named: "Hvideo"))
+        v3.tabBarItem = ESTabBarItem.init(LrregularityBasicContentView(), title: "关注", image: UIImage(named: "book"), selectedImage: UIImage(named: "Hbook"))
+        v4.tabBarItem = ESTabBarItem.init(LrregularityBasicContentView(), title: "我的", image: UIImage(named: "mine"), selectedImage: UIImage(named: "Hmine"))
+        
+        let n1 = NavigationController.init(rootViewController: v1)
+        let n2 = NavigationController.init(rootViewController: v2)
+        let n3 = NavigationController.init(rootViewController: v3)
+        let n4 = NavigationController.init(rootViewController: v4)
+        
+        v1.title = "首页"
+        v2.title = "直播"
+        v3.title = "关注"
+        v4.title = "我的"
+        
+        tabBarController.viewControllers = [n1, n2, n3, n4]
+        
+        return tabBarController
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
